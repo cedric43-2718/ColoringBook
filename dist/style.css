@@ -1,0 +1,91 @@
+
+
+
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+
+body{
+
+  background: whitesmoke;
+  font-family: 'FUCXED CAPS';
+}
+
+h1{
+    letter-spacing: .1rem;
+    font-size: 6rem;
+}
+
+h1:hover{
+    color: rgb(1, 36, 114);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background: rgba(22, 109, 196, 0.3);
+    z-index: 100;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* .sticky + .image-container {
+  padding-top: 5rem;
+} */
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-group{
+ position: relative;
+}
+
+
+i{
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+
+
+img{
+    padding: 2rem 0;
+    cursor: default;
+}
+
+.img-group:first-of-type{
+    padding-top: 4rem;
+
+
+}
+
+.img-group:first-of-type i{
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+}
