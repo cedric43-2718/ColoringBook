@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 @font-face {
   font-family: 'FUCXED CAPS';
   src: url(FUCXEDCAPS-v2.otf) format('opentype');
 }
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
 
 *,
 ::before,
