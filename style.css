@@ -62,6 +62,17 @@ h1:hover{
     align-items: center;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: min-content min-content;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 4.5rem;
+}
+
+.grid-container img{
+  cursor: pointer;
+}
+
 .intro{
   display: flex;
   align-items: center;
