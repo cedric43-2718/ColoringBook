@@ -1,12 +1,10 @@
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {stickyHeader()};
 
 const header = document.getElementById('header');
 var sticky = header.offsetTop;
 
-console.log(sticky);
-
-function myFunction() {
+function stickyHeader() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
     document.getElementById("site-title").style.display = "none";
